@@ -6,6 +6,8 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import maes.tech.intentanim.CustomIntent;
+
 public class Games extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,11 +20,10 @@ public class Games extends AppCompatActivity {
         findViewById(R.id.back).setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                if (client.isConnected()) {
-                    MainActivity.msg.send("back\n");
-                }
+                MainActivity.msg.send("back\n");
                 Intent i = new Intent(Games.this, MainActivity.class);
                 startActivity(i);
+                CustomIntent.customType(Games.this, "right-to-left");
             }
         });
 

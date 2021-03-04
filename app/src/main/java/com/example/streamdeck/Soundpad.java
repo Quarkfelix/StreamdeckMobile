@@ -7,6 +7,8 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import maes.tech.intentanim.CustomIntent;
+
 public class Soundpad extends AppCompatActivity {
 
     @Override
@@ -20,11 +22,10 @@ public class Soundpad extends AppCompatActivity {
         findViewById(R.id.backButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (client.isConnected()) {
-                    MainActivity.msg.send("back\n");
-                }
+                MainActivity.msg.send("back\n");
                 Intent i = new Intent(Soundpad.this, MainActivity.class);
                 startActivity(i);
+                CustomIntent.customType(Soundpad.this, "right-to-left");
             }
         });
 

@@ -11,12 +11,13 @@
         android:id="@+id/screenshot"
         android:layout_width="251dp"
         android:layout_height="142dp"
-        android:background="#E5FF0188"
+        android:background="#474747"
         android:text="scrennshot"
-        android:textColor="#000000"
+        android:textColor="#0EE1B0"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
@@ -24,9 +25,9 @@
         android:id="@+id/youtube"
         android:layout_width="251dp"
         android:layout_height="142dp"
-        android:background="#E5FF0188"
+        android:background="#474747"
         android:text="Youtube"
-        android:textColor="#000000"
+        android:textColor="#0EE1B0"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,9 +38,9 @@
         android:id="@+id/chrome"
         android:layout_width="251dp"
         android:layout_height="142dp"
-        android:background="#E5FF0188"
+        android:background="#474747"
         android:text="Chrome"
-        android:textColor="#000000"
+        android:textColor="#0EE1B0"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -51,12 +52,13 @@
         android:layout_width="251dp"
         android:layout_height="142dp"
         android:layout_marginEnd="4dp"
-        android:background="#E5FF0188"
+        android:background="#474747"
         android:text="Audio Switch"
-        android:textColor="#000000"
+        android:textColor="#0EE1B0"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="@+id/guideline6"
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
@@ -65,9 +67,9 @@
         android:layout_width="251dp"
         android:layout_height="142dp"
         android:layout_marginStart="4dp"
-        android:background="#E5FF0188"
+        android:background="#474747"
         android:text="Soundpad"
-        android:textColor="#000000"
+        android:textColor="#0EE1B0"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
@@ -80,26 +82,90 @@
         android:layout_height="142dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="12dp"
-        android:background="#E5FF0188"
+        android:background="#474747"
         android:text="Power Off"
-        android:textColor="#000000"
+        android:textColor="#0EE1B0"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintHorizontal_bias="0.561"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.326" />
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="251dp"
+        android:layout_height="142dp"
+        android:layout_marginEnd="16dp"
+        android:background="#474747"
+        android:text="Music"
+        android:textColor="#0EE1B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <Button
+        android:id="@+id/empty1"
+        android:layout_width="251dp"
+        android:layout_height="142dp"
+        android:background="#474747"
+        android:text="Empty"
+        android:textColor="#0EE1B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <Button
+        android:id="@+id/empty3"
+        android:layout_width="251dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="12dp"
+        android:background="#474747"
+        android:text="Empty"
+        android:textColor="#0EE1B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.303" />
+
+    <Button
+        android:id="@+id/empty2"
+        android:layout_width="251dp"
+        android:layout_height="142dp"
+        android:background="#474747"
+        android:text="Empty"
+        android:textColor="#0EE1B0"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.303" />
 
     <Button
         android:id="@+id/muteSystem"
         android:layout_width="251dp"
         android:layout_height="142dp"
-        android:background="#E5FF0188"
+        android:background="#474747"
         android:text="Mute/Unmute System"
-        android:textColor="#000000"
+        android:textColor="#0EE1B0"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
@@ -107,23 +173,23 @@
         android:id="@+id/games"
         android:layout_width="251dp"
         android:layout_height="142dp"
-        android:background="#E5FF0188"
+        android:background="#474747"
         android:text="Games"
-        android:textColor="#000000"
+        android:textColor="#0EE1B0"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline"
-        app:layout_constraintVertical_bias="0.527" />
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
 
     <Button
         android:id="@+id/connectButton"
         android:layout_width="139dp"
         android:layout_height="70dp"
-        android:background="#E5FF0188"
+        android:background="#474747"
         android:text="Connect"
-        android:textColor="#000000"
+        android:textColor="#0EE1B0"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/ausgabe"
         app:layout_constraintEnd_toEndOf="parent"
@@ -149,21 +215,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="150dp" />
+        app:layout_constraintGuide_begin="109dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="650dp" />
+        app:layout_constraintGuide_begin="513dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="400dp" />
+        app:layout_constraintGuide_begin="309dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
